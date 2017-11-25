@@ -1,0 +1,12 @@
+```
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    {{ stock.name }} ({{ stock.symbol }}): ${{ stock.price }} per share
+{% endblock %}
+
+```
