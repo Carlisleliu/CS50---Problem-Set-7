@@ -1,0 +1,39 @@
+```
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped" style="width:100%">
+        <tr>
+            <th>Symbol</th>
+            <th>Stock</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>buy_in_price</th>
+            <th>buy_in_share</th>
+            <th>buy_in_value</th>
+            <th>sell_out_price</th>
+            <th>sell_out_share</th>
+            <th>sell_out_value</th>
+        </tr>
+    {% for history in histories %}
+        <tr>
+            <td>{{  history.symbol  }}</td>
+            <td>{{  history.stock  }}</td>
+            <td>{{  history.date  }}</td>
+            <td>{{  history.time  }}</td>
+            <td>{{  history.buy_in_price  }}</td>
+            <td>{{  history.buy_in_share  }}</td>
+            <td>{{  history.buy_in_value  }}</td>
+            <td>{{  history.sell_out_price  }}</td>
+            <td>{{  history.sell_out_share  }}</td>
+            <td>{{  history.sell_out_value  }}</td>
+        </tr>
+    {% endfor %}
+
+    
+{% endblock %}
+```
