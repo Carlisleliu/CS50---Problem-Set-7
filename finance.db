@@ -1,0 +1,40 @@
+```
+phpLiteAdmin v1.9.7.1
+
+Documentation | License | Project Site
+Change Database
+[rw] finance  [↓]
+finance
+[Table] holding
+[Table] trade
+[Table] users
+finance
+
+StructureSQLExportImportVacuum
+Database name: finance
+Path to database: /home/ubuntu/workspace/finance/finance.db
+Size of database: 12 KB
+Database last modified: 3:32pm on November 23, 2017 (UTC)
+SQLite version: 3.8.2
+SQLite extension [?]: PDO
+PHP version: 5.5.9-1ubuntu4.21
+phpLiteAdmin version: 1.9.7.1 
+
+Type [?]	Name	Action	Records
+Table	holding	Browse	Structure	SQL	Search	Insert	Export	Import	Rename	Empty	Drop	1
+Table	trade	Browse	Structure	SQL	Search	Insert	Export	Import	Rename	Empty	Drop	2
+Table	users	Browse	Structure	SQL	Search	Insert	Export	Import	Rename	Empty	Drop	6
+3 Total	9
+
+Create new table on database 'finance'
+Name: 
+ Number of Fields: 
+ Go
+
+Create new view on database 'finance'
+Name: 
+ Select Statement [?]: 
+ Go
+
+Powered by phpLiteAdmin | This is free software. Please donate. | Page generated in 0.0771 seconds.
+```
